@@ -1,0 +1,17 @@
+
+
+.container {
+  height: 80%;
+  border: 1px solid indigo;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center; 
+}
+  
+.item {
+    display: inline-block;
+    flex-grow: 1;
+    height: 100px;
+    width: calc(100% * (1/16));
+}
