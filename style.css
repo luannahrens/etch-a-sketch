@@ -1,7 +1,7 @@
 
 
 .container {
-  height: 80%;
+  width: 960px;
   border: 1px solid indigo;
   display: flex;
   flex-wrap: wrap;
@@ -12,6 +12,4 @@
 .item {
     display: inline-block;
     flex-grow: 1;
-    height: 100px;
-    width: calc(100% * (1/16));
 }
