@@ -3,7 +3,7 @@ function drawGrid(size){
     container.textContent = "";
     for (i = 0; i < (size*size); i++){
         let newDiv = document.createElement('div');
-        newDiv.textContent = i;
+        //newDiv.textContent = i;
         newDiv.className = "item";
         newDiv.style.height = `calc(100% * (1/${size}))`;
         newDiv.style.width = `calc(100% * (1/${size}))`;

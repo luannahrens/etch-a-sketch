@@ -12,4 +12,5 @@
 .item {
     display: inline-block;
     flex-grow: 1;
+    min-height: 10px;
 }
